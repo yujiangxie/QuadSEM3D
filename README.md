@@ -1,6 +1,6 @@
 # QuadSEM3D
 
-QuadSEM3D: 3D full Hessian kernels on the fly based on spectral-element and adjoint method. 
+QuadSEM3D: Construction of 3D full Hessian kernels on the fly based on spectral-element and adjoint method. 
 
 We have incorporated the QuadSEM3D implementation into the SPECFEM3D Cartesian, which many users already use. The QuadSEM3D implementation is used only when simultaneously computing the Frechet and full Hessian kernels on the fly is required, or when computing the full Hessian kernels is required. For other purposes that do not require the full Hessian kernels, we suggest using the SPECFEM3D Cartesian, although the QuadSEM3D can do the same things.
 
