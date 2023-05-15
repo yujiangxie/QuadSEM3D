@@ -2,6 +2,10 @@
 
 QuadSEM3D: Construction of 3D full Hessian kernels on the fly based on spectral-element and adjoint method. 
 
+Hessian kernels have two main applications: 
+  1) in inversion, they can improve the convergence rate and reduce the problem of trade-offs among inverted multi-parameters; 
+  2) after inversion, they can be used to analyze the resolution of the inverted model.
+
 We have incorporated the QuadSEM3D implementation into the SPECFEM3D Cartesian, which many users already use. The QuadSEM3D implementation is used only when simultaneously computing the Frechet and full Hessian kernels on the fly is required, or when computing the full Hessian kernels is required. For other purposes that do not require the full Hessian kernels, we suggest using the SPECFEM3D Cartesian, although the QuadSEM3D can do the same things.
 
 Although the QuadSEM3D and SPECFEM3D Cartesian share the same code files, their coding structures are different. We set two models assigned for each GLL point of the mesher for QuadSEM3D, where two or four sets of associated wavefields are computed for each GLL point, while the SPECFEM3D Cartesian is implemented to compute one set of wavefields (i.e., forward simulation) or two sets of wavefields (i.e., adjoint simulation) for each GLL point.
