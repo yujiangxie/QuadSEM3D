@@ -6,7 +6,7 @@ Hessian kernels have two main applications:
 1) In inversion, they can improve the convergence rate and mitigate trade-offs among inverted multi-parameters.
 2) After inversion, they can be used to analyze the resolution of the inverted model.
 
-QuadSEM3D is developed as an extension of the SPECFEM3D Cartesian code. We have integrated the QuadSEM3D implementation into the existing SPECFEM3D Cartesian framework, which is widely used by many users. QuadSEM3D is used when simultaneous computation of the Frechet and full Hessian kernels on the fly is required, or when computing the full Hessian kernels alone is needed.
+QuadSEM3D is developed as an extension of the SPECFEM3D Cartesian code. We have integrated the QuadSEM3D implementation into the existing SPECFEM3D Cartesian framework, which is widely used by many users. 
 
 While QuadSEM3D and SPECFEM3D Cartesian share the same code files, their coding structures differ. In QuadSEM3D, we assign two models to each GLL point of the mesher, resulting in the computation of two or four sets of associated wavefields for each GLL point. On the other hand, SPECFEM3D Cartesian is designed to compute one set of wavefields (forward simulation) or two sets of wavefields (adjoint simulation) for each GLL point.
 
