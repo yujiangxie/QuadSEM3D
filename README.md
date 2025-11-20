@@ -3,7 +3,9 @@ QuadSEM3D is the 3D version of QuadSEM (https://github.com/yujiangxie/QuadSEM), 
 One can use it in essentially the same way as SPECFEM3D; I have kept it as similar to SPECFEM3D as possible. The key difference is that QuadSEM3D can work with two models simultaneously.
 
 Citing these papers is optional, but they may help you understand the QuadSEM2D/3D methods.
+
 References:
+
 Yujiang Xie, Catherine A. Rychert and Nicholas Harmon. Elastic and anelastic adjoint tomography with and full Hessian kernels, Geophysical Journal International, 234, 1205-1235, 2023, https://doi.org/10.1093/gji/ggad114
 
 Yujiang Xie, Catherine A. Rychert, Nicholas Harmon, Qinya Liu and Dirk Gajewski. On‐the‐Fly Full Hessian Kernel Calculations Based upon Seismic‐Wave Simulations, Seismological Research Letters 2021,92, 3832-3844, doi: https://doi.org/10.1785/0220200410
