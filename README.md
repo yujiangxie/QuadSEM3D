@@ -2,7 +2,6 @@ QuadSEM3D is the 3D version of QuadSEM (https://github.com/yujiangxie/QuadSEM), 
 
 One can use it in essentially the same way as SPECFEM3D; I have kept it as similar to SPECFEM3D as possible. The key difference is that QuadSEM3D can work with two models simultaneously to compute the full Hessian kernels on the fly (for elastic cases), which can substantially reduce storage and I/O costs and make the use of full Hessian kernels feasible for large-scale simulations and imaging.
 
-Citing these papers is optional, but they may help you understand the QuadSEM2D/3D methods.
 
 References:
 
